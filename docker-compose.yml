@@ -18,7 +18,7 @@ services:
       depends_on:
         - db_ghost
       ports:
-        - 8089:2368
+        - 8000:80
       volumes:
         - gh_storage_new:/var/lib/ghost
       environment:
