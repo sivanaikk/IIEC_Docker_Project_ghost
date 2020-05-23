@@ -10,16 +10,16 @@ Ghost is a free and open source blogging platform written in JavaScript and dist
 The concept of the Ghost platform was first floated publicly in November 2012 in a blog post by project founder John O'Nolan, which generated enough response to justify coding a prototype version with collaborator Hannah Wolfe.
 
 ## 1. Pre-Configuration :
-REDHAT ENTERPRISES LINUX 8 and installed with Docker and Docker Compose .
+Ubuntu 18.04 LTS and installed with Docker and Docker Compose .
 * we need to download mysql to check database
 ```
-dnf install mysql
+apt-get install mysql
 ```
 
 ## 2. Install Docker 
 * Install docker 
 ``` 
-dnf install docker-ce
+apt-get install docker-ce
 ```
 * start docker 
 ```
